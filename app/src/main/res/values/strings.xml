@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false" >Igeniy</string>
+    <string name="vk_app_id" translatable="false">6040457</string>
+    <string name="start" translatable="false">Старт</string>
+    <string name="gameMode" translatable="false">Режим 1</string>
+    <string name="records" translatable="false">Рекорды</string>
+    <string name="settings" translatable="false">Настройки</string>
+    <string name="exit" translatable="false">Выход</string>
+</resources>

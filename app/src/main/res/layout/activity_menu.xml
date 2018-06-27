@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="example.igeniy.Menu">
+
+
+    <view
+        android:id="@+id/surface"
+        class="example.igeniy.MainGamePanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="top"
+        android:gravity="top"
+        android:isIndicator="true" />
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="4dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="4dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="11dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_gravity="top"
+        android:layout_marginLeft="145dp"
+        android:elevation="0dp"
+        android:gravity="top"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="30sp" />
+
+
+</FrameLayout>
